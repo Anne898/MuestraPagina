@@ -1,0 +1,26 @@
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #02b7c9;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    z-index: 100;
+    margin: 0;
+}
+
+.imgButton {
+    width: 40px;
+    height: 40px;
+    /* centrar vertical y horizontalmente */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -20px 0 0 -20px;}
+
+.my-float {
+    margin-top: 22px;
+}
