@@ -1,9 +1,9 @@
 .float {
     position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 40px;
-    right: 40px;
+    width: 50px;
+    height: 50px;
+    bottom: 150px;
+    right: 00px;
     background-color: #02b7c9;
     color: #FFF;
     border-radius: 50px;
@@ -13,13 +13,13 @@
 }
 
 .imgButton {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     /* centrar vertical y horizontalmente */
     position: absolute;
     top: 50%;
     left: 50%;
-    margin: -20px 0 0 -20px;}
+    margin: -15px 0 0 -15px;}
 
 .my-float {
     margin-top: 22px;
