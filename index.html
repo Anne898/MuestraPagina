@@ -9,8 +9,12 @@
     <title>Invitacion Muestra</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
     <link rel="stylesheet" href="Invitacion-Muestra.css" media="screen">
+    <link rel="stylesheet" href="audio.css" media="screen">
+
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <script type="text/javascript" src="audio.js" defer=""></script>
+
     <meta name="generator" content="Nicepage 5.5.0, nicepage.com">
 
     <link id="u-theme-google-font" rel="stylesheet"
@@ -33,15 +37,45 @@
     <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
   <body
     data-home-page-title="Invitacion Muestra" class="u-body u-xl-mode"
-    data-lang="es"><header class="u-clearfix u-header u-sticky-64ee
+    data-lang="es">
+
+    <header class="u-clearfix u-header u-sticky-64ee
       u-valign-middle-lg u-valign-middle-md u-valign-middle-xl
       u-valign-middle-xs u-header" id="sec-e80e"><h2 class="u-align-center
         u-custom-font u-text u-text-custom-color-6 u-text-1"
         data-animation-out="0">¡Vamos a Celebrar!</h2></header>
+
+    <div id="boton" class="icon-social">
+      <audio id="MusicaFondo"> </audio>
+
+      <a onclick="MusicaFondo()" href="#" class="float">
+        <img class="imgButton" async
+          src="images/651717-e0c2c127.png" alt="">
+      </a>
+    </div>
+
+    <!--  <div class="container-bar"> BOTON DE MUSICA 
+      <input type="checkbox" id="btn-social">
+
+      <label for="btn-social" class="fa fa-play"></label>
+
+
+      <div id="boton" class="icon-social">
+        <audio id="MusicaFondo"> </audio>
+
+        <a onclick="MusicaFondo()" href="#" class="fa fa-facebook">
+          <img align="center" style="width: 50%; height: 50%;"
+            src="images/651717-e0c2c127.png"
+            alt=""> </a>
+
+      </div>
+    </div>-->
     <section class="u-clearfix u-image u-image-contain u-lightbox u-section-1"
       id="carousel_2010" data-image-width="1080" data-image-height="1080">
       <div class="u-clearfix u-sheet u-sheet-1"></div>
     </section>
+
+
     <section class="u-clearfix u-section-2" id="sec-9b0c">
       <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md
         u-valign-middle-xl u-sheet-1">
@@ -56,7 +90,8 @@
     <section class="u-align-center u-clearfix u-container-align-center-sm
       u-custom-color-6 u-section-4" id="carousel_6ee4">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <img async src="images/personaje2.gif" alt="" class="u-image u-image-default
+        <img async src="images/personaje2.gif" alt="" class="u-image
+          u-image-default
           u-image-1" data-image-width="1080" data-image-height="1080">
         <h2 class="u-align-center u-custom-font u-text u-text-white u-text-1">
           <span style="font-weight: 400;"></span>Ya Solo Faltan...
@@ -142,7 +177,8 @@
             <h1 class="u-custom-font u-text u-text-custom-color-6 u-text-default
               u-text-1" data-animation-name="" data-animation-direction=""
               data-animation-duration="0">¡Acompáñanos a el día!</h1>
-            <img async class="u-image u-image-contain u-image-default u-image-1"
+            <img async async class="u-image u-image-contain u-image-default
+              u-image-1"
               src="images/fecha2.gif" alt="" data-image-width="1080"
               data-image-height="315">
             <h1 class="u-custom-font u-text u-text-custom-color-6 u-text-default
@@ -167,9 +203,11 @@
             </a>
           </div>
         </div>
-        <img async src="images/personaje.gif" alt="" class="u-image u-image-default
+        <img async src="images/personaje.gif" alt="" class="u-image
+          u-image-default
           u-image-2" data-image-width="1080" data-image-height="1080">
-        <img async src="images/decoracion2.gif" alt="" class="u-image u-image-default
+        <img async src="images/decoracion2.gif" alt="" class="u-image
+          u-image-default
           u-image-3" data-image-width="1080" data-image-height="1080">
       </div>
     </section>
@@ -183,6 +221,7 @@
               u-list-item u-repeater-item u-list-item-1">
               <div class="u-container-layout u-similar-container u-valign-middle
                 u-container-layout-1"><span class="u-file-icon u-icon u-icon-1"><img
+                    async
                     src="images/3012454.png" alt=""></span>
                 <h3 class="u-custom-font u-text u-text-default u-text-2">Soy
                   talla 6</h3>
@@ -192,6 +231,7 @@
               u-list-item u-repeater-item u-list-item-2">
               <div class="u-container-layout u-similar-container u-valign-middle
                 u-container-layout-2"><span class="u-file-icon u-icon u-icon-2"><img
+                    async
                     src="images/2682274.png" alt=""></span>
                 <h3 class="u-custom-font u-text u-text-default u-text-3">Habrá
                   sow a<br>las 5:00 pm
@@ -202,6 +242,7 @@
               u-list-item u-repeater-item u-list-item-3" data-animation-out="0">
               <div class="u-container-layout u-similar-container u-valign-middle
                 u-container-layout-3"><span class="u-file-icon u-icon u-icon-3"><img
+                    async
                     src="images/5398542.png" alt=""></span>
                 <h3 class="u-custom-font u-text u-text-default u-text-4">¡No
                   olvides tu traje de baño!</h3>
@@ -222,7 +263,7 @@
             title="Custom"
             href="https://api.whatsapp.com/send?phone=+526144645091&amp;text=%C2%A1Hola!%20Muchas%20gracias%20por%20la%20invitaci%C3%B3n,%20ah%C3%AD%20estaremos!!%20%F0%9F%A5%B3"><span
               class="u-file-icon u-icon u-social-custom u-social-icon
-              u-text-white u-icon-1"><img src="images/733641-25908de1.png"
+              u-text-white u-icon-1"><img async src="images/733641-25908de1.png"
                 alt=""></span>
           </a>
         </div>
@@ -293,6 +334,5 @@
           </a>
         </div>
       </div></footer>
- 
-
+  
   </body></html>
