@@ -47,7 +47,7 @@ section.u-custom-color-2:before,
     padding: 8px 27px 8px 26px;
   }
 
-  
+
 /*BOTON ASISTENCIA*/
   @media (max-width: 575px) {
     .u-section-4 .u-btn-1 {
@@ -62,3 +62,29 @@ section.u-custom-color-2:before,
       font-size: 1.3572em;
     }
   }
+  .music-button {
+    position: fixed;
+    bottom: 20px; /* Ajusta la distancia desde la parte inferior */
+    right: 00px; /* Ajusta la distancia desde la derecha */
+    z-index: 9999; /* Asegura que esté por encima del contenido */
+}
+
+
+
+
+
+.music-button button {
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #1a529d; /* Color de fondo blanco */
+    color: #ffffff; /* Color del icono blanco */
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.music-button button:hover {
+    transform: scale(1.1); /* Cambia el tamaño al pasar el mouse sobre él */
+}
