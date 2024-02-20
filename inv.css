@@ -1,0 +1,64 @@
+/*BOTONES */
+.u-input.u-custom-color-2,
+.u-field-input.u-custom-color-2,
+.u-button-style.u-custom-color-2,
+.u-button-style.u-custom-color-2[class*="u-border-"] {
+    color: #ffffff !important;
+    background-color: #1a529d !important;
+}
+
+/*CUENTA REGRESIVA */
+.u-border-custom-color-2,
+.u-border-custom-color-2.u-input,
+.u-border-custom-color-2.u-field-input.u-field-input,
+.u-separator-custom-color-2:after {
+    border-color: #1a529d;
+    stroke: #1a529d;
+}
+
+.u-custom-color-2,
+.u-body.u-custom-color-2,
+section.u-custom-color-2:before,
+.u-custom-color-2>.u-audio-main-layout-wrapper:before,
+.u-custom-color-2>.u-container-layout:before,
+.u-custom-color-2>.u-inner-container-layout:before,
+.u-custom-color-2.u-sidenav:before,
+.u-container-layout.u-container-layout.u-custom-color-2:before,
+.u-table-alt-custom-color-2 tr:nth-child(even) {
+    color: #ffffff;
+    background-color: #1a529d;
+}
+
+/*CUENTA REGRESIVA POSICION*/
+@media (max-width: 575px) {
+    .u-section-2 .u-countdown-1 {
+      --radius: 22px;
+      margin: 650px auto 60px;
+    }
+}
+
+/*BOTON UBICACIÓN*/
+.u-section-3 .u-btn-1 {
+    --radius: 50px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    background-image: none;
+    margin: 666px auto 60px;
+    padding: 8px 27px 8px 26px;
+  }
+
+  
+/*BOTON ASISTENCIA*/
+  @media (max-width: 575px) {
+    .u-section-4 .u-btn-1 {
+      --radius: 50px;
+      text-transform: uppercase;
+      font-size: 0.875rem;
+      margin: 294px auto 60px;
+      padding: 8px 27px 8px 26px;
+    }
+  
+    .u-section-4 .u-icon-1 {
+      font-size: 1.3572em;
+    }
+  }
