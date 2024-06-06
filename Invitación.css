@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: url("images/11-12.gif");
+  background-image: url("images/12.gif");
   background-position: 50% 50%;
 }
 
@@ -205,7 +205,7 @@
 @media (max-width: 575px) {
   .u-section-2 .u-countdown-1 {
     --radius: 22px;
-    margin-top: 233px;
+    margin-top: 330px;
   }
 
   .u-section-2 .u-countdown-counter-1 {
@@ -291,18 +291,14 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-3 .u-sheet-1 {
-    min-height: 794px;
-  }
-
   .u-section-3 .u-btn-1 {
     font-size: 0.875rem;
     font-weight: 700;
-    margin: 695px auto 60px;
+    margin: 551px auto 60px;
     padding: 7px 26px 8px 25px;
   }
 } .u-section-4 {
-  background-image: url("images/41.gif");
+  background-image: url("images/42.gif");
   background-position: 50% 50%;
 }
 
@@ -327,8 +323,7 @@
     font-size: 0.875rem;
     font-weight: 700;
     text-transform: uppercase;
-    margin-top: 728px;
-    margin-bottom: 26px;
+    margin-top: 540px;
     padding: 7px 26px 8px 25px;
   }
 }
