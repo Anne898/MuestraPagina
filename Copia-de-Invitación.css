@@ -1,9 +1,8 @@
-.u-section-1 {
-  background-image: url("images/cumple.png");
+ .u-section-1 {
+  background-image: url("images/18aoswebTamaooriginal11.png");
   background-position: 50% 50%;
 }
 
-    
 .u-section-1 .u-sheet-1 {
   min-height: 3000px;
 }
@@ -173,16 +172,10 @@
 
 .u-section-1 .u-btn-1 {
   background-image: none;
-  font-weight: 400;
-  font-size: 1rem;
-  box-shadow: 2px 2px 0px 0px rgb(19 33 136);
 }
 
 .u-section-1 .u-btn-2 {
   background-image: none;
-  font-weight: 400;
-  font-size: 1rem;
-  box-shadow: 2px 2px 0px 0px rgb(19 33 136);
 }
 
 @media (max-width: 575px) {
@@ -191,12 +184,12 @@
   }
 
   .u-section-1 .u-countdown-1 {
-    margin: 1009px -28px 0;
-    padding: 38px 50px;
+    margin: 898px -12px 0;
+    padding: 0 36px;
   }
 
   .u-section-1 .u-countdown-counter-1 {
-    font-size: 1.875rem;
+    font-size: 2.25rem;
   }
 
   .u-section-1 .u-countdown-label-1 {
@@ -204,11 +197,11 @@
   }
 
   .u-section-1 .u-countdown-separator-1 {
-    font-size: 1.875rem;
+    font-size: 2.25rem;
   }
 
   .u-section-1 .u-countdown-counter-2 {
-    font-size: 1.875rem;
+    font-size: 2.25rem;
   }
 
   .u-section-1 .u-countdown-label-2 {
@@ -216,11 +209,11 @@
   }
 
   .u-section-1 .u-countdown-separator-2 {
-    font-size: 1.875rem;
+    font-size: 2.25rem;
   }
 
   .u-section-1 .u-countdown-counter-3 {
-    font-size: 1.875rem;
+    font-size: 2.25rem;
   }
 
   .u-section-1 .u-countdown-label-3 {
@@ -228,11 +221,11 @@
   }
 
   .u-section-1 .u-countdown-separator-3 {
-    font-size: 1.875rem;
+    font-size: 2.25rem;
   }
 
   .u-section-1 .u-countdown-counter-4 {
-    font-size: 1.875rem;
+    font-size: 2.25rem;
   }
 
   .u-section-1 .u-countdown-label-4 {
@@ -240,11 +233,11 @@
   }
 
   .u-section-1 .u-countdown-separator-4 {
-    font-size: 1.875rem;
+    font-size: 2.25rem;
   }
 
   .u-section-1 .u-countdown-counter-5 {
-    font-size: 1.875rem;
+    font-size: 2.25rem;
   }
 
   .u-section-1 .u-countdown-label-5 {
@@ -252,11 +245,11 @@
   }
 
   .u-section-1 .u-countdown-separator-5 {
-    font-size: 1.875rem;
+    font-size: 2.25rem;
   }
 
   .u-section-1 .u-countdown-counter-6 {
-    font-size: 1.875rem;
+    font-size: 2.25rem;
   }
 
   .u-section-1 .u-countdown-label-6 {
@@ -265,15 +258,13 @@
 
   .u-section-1 .u-btn-1 {
     font-weight: 700;
-    --radius: 20px;
-    margin: 1682px auto 0;
-    padding: 10px 55px;
+    font-size: 0.75rem;
+    margin: 802px auto 0;
   }
 
   .u-section-1 .u-btn-2 {
     font-weight: 700;
-    --radius: 20px;
-    margin: 80px auto 60px;
-    padding: 10px 22px 10px 20px;
+    font-size: 0.75rem;
+    margin: 1205px auto 60px;
   }
 }
